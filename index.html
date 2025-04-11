@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient & Blur Effect</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="image-gradient">
+        <img src="gradient.png" alt="gradient" />
+    </div>
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo brand-gradient">
+                <code>&lt;Harsh /&gt;</code>
+
+            </h1>
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">Home</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">Projects</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">Skill</a>
+                <a data-aos="fade-down" data-aos-duration="3000"
+                    href="https://drive.google.com/file/d/1cZzoXL7gCYqzFPy3oUPuE_dNvfTSAZtI/view?usp=sharing"
+                    target="_blank" class="btn-signing">Resume <img src="maximize.png" alt="arrow"
+                        class="resume-icon" /></a>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main>
+            <div class="content">
+                <div class="tag-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+                    data-aos-offset="0" data-aos-duration="1500">
+                    <div class="tag">Software Developer
+
+                    </div>
+                </div>
+
+                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="2000" class="main-heading">Code with purpose. Products with impact.
+                </h1>
+
+                <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="2500" class="description">
+                    I’m <b>Harsh</b> — a software developer focused on building clean, scalable web apps that solve real
+                    problems and
+                    deliver real value.
+
+                </p>
+
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="3000" class="buttons">
+                    <a href="#" class="btn-get-started">Explore
+                        <svg class="explore-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2zM5 18l.5 1.5L7 20l-1.5.5L5 22l-.5-1.5L3 20l1.5-.5L5 18zM19 16l.5 1.5L21 18l-1.5.5L19 20l-.5-1.5L17 18l1.5-.5L19 16z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="btn-signing-main">Contact Me</a>
+                </div>
+            </div>
+        </main>
+
+
+        <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="3000" class="robot-3rd"
+            url="https://prod.spline.design/gRfIlCrq-uxB4wzF/scene.splinecode"></spline-viewer>
+
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
